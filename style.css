@@ -1,0 +1,53 @@
+:root{
+    --background-color: rgb(176, 213, 224);
+}
+
+a:link{
+    color:rgb(89, 176, 226);
+}
+a:visited{
+    color:rgb(86, 163, 235);
+}
+a:hover{
+    color:rgb(25, 23, 158);
+    text-decoration: underline;
+}
+a:active{
+    color:rgb(19, 72, 216);
+}
+
+.business-list il:first-child{
+    font-weight: bold;
+}
+.colums{
+    column-rule: 1px rgb(35, 93, 151);
+}
+
+
+.headings
+h1{
+    color:rgb(37, 19, 196);
+}
+.business-list li:first-of-type{
+    font-weight: bold;
+}
+.business-list li:nth-child(1){
+    color:blue
+}
+nav ul li a:hover{
+    background-color: rgb(111, 176, 230);
+
+}
+nav ul{
+    list-style:none;
+    padding:0;
+
+}
+nav ul li a{
+    display:block;
+    padding: 5px;
+
+}
+nav ul li a:hover {
+    background-color: rgb(58, 92, 167);
+}
